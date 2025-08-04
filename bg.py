@@ -2,7 +2,7 @@ import arcade
 import random
 import os
 
-GIF_PATHS = ["dancingbaby.gif", "calamardo.gif", "calamardo_anim.gif"
+GIF_PATHS = ["espana-spain.gif", "calamardo.gif", "clamardo2.gif"
             ]
 GIF_DELAYS = [50, 50, 20]
 FPS = 60
@@ -121,6 +121,6 @@ if __name__ == "__main__":
     window = arcade.Window( title = SCREEN_TITLE,
                          resizable = True)
 
-    window = BackgroundWindow()
+    window = BackgroundGame()
     window.setup()
     arcade.run()

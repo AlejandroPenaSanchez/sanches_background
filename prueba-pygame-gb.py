@@ -3,7 +3,7 @@ import pygame as pg
 import random
 import os
 
-GIF_PATHS = ["dancingbaby.gif", "calamardo.gif", "calamardo_anim.gif"
+GIF_PATHS = ["espana-spain.gif", "calamardo.gif", "clamardo2.gif"
             ]
 GIF_DELAYS = [50, 50, 20]
 FPS = 60
